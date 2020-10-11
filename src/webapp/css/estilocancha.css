@@ -1,0 +1,77 @@
+
+.canchasYmapa{
+	display:grid;
+	grid-template-column:50% 50%;
+	padding-left:3%;
+	padding-right:3%;
+}
+.canchas
+{
+	grid-column-start:1;
+	
+	
+}
+
+.titulo{
+	font-size:22px;
+	font-family: Eras ITC;
+	
+	
+}
+.textoensima{
+	  position: absolute;
+	margin-top:130px;
+	margin-left:140px;
+	color:white;
+  	font-size:25px;
+	font-family: Eras ITC;
+	
+}
+.imagen{
+	 position: relative;
+	
+}
+.titulomapa{
+	font-size:20px;
+	font-family: Eras ITC;
+	font-weight: bold;
+}
+.textocancha{
+	font-size:20px;
+	font-family: Eras ITC;
+}
+.imagenchiquita{
+	
+	height:20px;
+	width:auto;
+}
+.cancha{
+	display:flex;
+	
+
+}
+.imagen{
+	height:40%;
+	width:30%;
+	
+}
+
+.nombrecancha{
+	font-weight: bold;
+	
+}
+.imagen >a img
+{
+	height:170px;
+	width:225px;
+	border-radius: 15px;
+	object-fit: cover;
+}
+.direccion{
+	
+	margin-top:15%;}
+.mapa
+{		
+		grid-column-start:2;
+	
+}
