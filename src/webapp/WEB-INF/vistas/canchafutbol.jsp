@@ -7,11 +7,19 @@
 <link rel="stylesheet" type="text/css" href="css/estilocancha.css">
 </head>
 <body>
+<select name="ciudades" >
 
+<option>${ciudades}</option>
+
+<option>${ciudades}</option>
+
+<option>${ciudades}</option>
+
+</select>
 <div class="canchasYmapa">
 
 		<div class="canchas">
-					<p class="titulo">canchas por la zona de $nombrevariable</p>
+					<p class="titulo">canchas por la zona de ${ciudad}</p>
 				<div class="cancha" id="cancha1">
 				
 					<div class="imagen"><div class="textoensima"> 1500$ </div>
